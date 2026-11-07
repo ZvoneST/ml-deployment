@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.virtualenvs/
+.env
+
+# local SQLite database
+*.sqlite3
+*.db
+
+# model artifacts in research/artifacts/ ARE tracked on purpose (see README)
